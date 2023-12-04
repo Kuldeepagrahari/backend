@@ -1,0 +1,39 @@
+PS C:\Users\kulde\OneDrive\Desktop\node.js\module1> npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (module1) learning-npm
+version: (1.0.0)                                                                                                                           
+description: i am learning npm
+entry point: (index.js)                                                                                                                    
+test command:                                                                                                                              
+git repository:                                                                                                                            
+keywords:                                                                                                                                  
+author: KSS                                                                                                                                
+license: (ISC)
+About to write to C:\Users\kulde\OneDrive\Desktop\node.js\module1\package.json:
+
+{
+  "name": "learning-npm",
+  "version": "1.0.0",
+  "description": "i am learning npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "KSS",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes) y
+----------------------------------------complete npm command---------------------------------
+to get npm packages->search npm.js ->packages
+1.sillyname->generate random names
