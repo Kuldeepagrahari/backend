@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1><%= title %></h1>
+    <h2>current second: <%= seconds %></h2>
+    <% if(seconds%2===0){%>
+    <ul>
+       <!-- items.forEach((fruits)=>{<li>fruits</li>}) bhi use kr sakte h-->
+        <% for( let index = 0; index < items.length; index++ ) { %>
+        <li>
+            <%= items[index] %>
+        </li>
+        <% } %>
+    </ul>
+    <!-- dono close aur open curley else ke liye saath me hona jaruri h -->
+    <% } else { %>
+    <p>no item to display</p>
+    <% } %>
+    <%- html %>
+    <%- include('footer.ejs') %>
+</body>
+</html>
